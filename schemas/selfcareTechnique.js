@@ -67,11 +67,6 @@ export default {
       type: 'url',
     },
     {
-      name: 'published',
-      title: 'Is this technique ready to publish?',
-      type: 'boolean',
-    },
-    {
       name: 'likes',
       title: 'Number of likes',
       type: 'number',
