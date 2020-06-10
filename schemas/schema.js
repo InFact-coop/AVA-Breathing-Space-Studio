@@ -8,6 +8,10 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import blockContent from './blockContent'
 import selfcareCategory from './selfcareCategory'
 import selfcareTechnique from './selfcareTechnique'
+import supportCategory from './supportCategory'
+import supportService from './supportService'
+import supportPhoneline from './supportPhoneline'
+import supportTag from './supportTag'
 import fileType from './file'
 import page from './page'
 
@@ -20,6 +24,10 @@ export default createSchema({
   types: schemaTypes.concat([
     selfcareCategory,
     selfcareTechnique,
+    supportCategory,
+    supportTag,
+    supportService,
+    supportPhoneline,
     blockContent,
     fileType,
     page,
