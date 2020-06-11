@@ -12,6 +12,8 @@ import supportCategory from './supportCategory'
 import supportService from './supportService'
 import supportPhoneline from './supportPhoneline'
 import supportTag from './supportTag'
+import story from './story'
+import storyTag from './storyTag'
 import fileType from './file'
 import page from './page'
 
@@ -28,6 +30,8 @@ export default createSchema({
     supportTag,
     supportService,
     supportPhoneline,
+    story,
+    storyTag,
     blockContent,
     fileType,
     page,
