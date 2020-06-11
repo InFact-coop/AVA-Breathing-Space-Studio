@@ -1,10 +1,10 @@
-import { GiHeartInside } from 'react-icons/gi'
+import { RiUserHeartLine } from 'react-icons/ri'
 
 export default {
   name: 'selfcareTechnique',
   title: 'Self-Care Technique',
   type: 'document',
-  icon: GiHeartInside,
+  icon: RiUserHeartLine,
   fields: [
     {
       name: 'title',
@@ -73,17 +73,4 @@ export default {
       readOnly: 'true',
     },
   ],
-
-  //   preview: {
-  //     select: {
-  //       title: 'title',
-  //       media: 'mainImage'
-  //     },
-  //     prepare(selection) {
-  //       const { author } = selection
-  //       return ({ ...selection,
-  //         subtitle: author && `by ${author}`,
-  //       )
-  //     },
-  //   },
 }

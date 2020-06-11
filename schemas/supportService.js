@@ -1,10 +1,10 @@
-import { GiHeartInside } from 'react-icons/gi'
+import { GrSupport } from 'react-icons/gr'
 
 export default {
   name: 'supportService',
   title: 'Support Service',
   type: 'document',
-  icon: GiHeartInside,
+  icon: GrSupport,
   fields: [
     {
       name: 'name',

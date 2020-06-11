@@ -1,10 +1,10 @@
-import { FaShapes } from 'react-icons/fa'
+import { RiUserHeartLine } from 'react-icons/ri'
 
 export default {
   name: 'selfcareCategory',
   title: 'Self-Care Category',
   type: 'document',
-  icon: FaShapes,
+  icon: RiUserHeartLine,
   fields: [
     {
       name: 'title',
