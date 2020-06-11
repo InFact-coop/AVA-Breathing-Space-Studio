@@ -1,10 +1,10 @@
-import { FaShapes } from 'react-icons/fa'
+import { GrSupport } from 'react-icons/gr'
 
 export default {
   name: 'supportCategory',
   title: 'Support Category',
   type: 'document',
-  icon: FaShapes,
+  icon: GrSupport,
   fields: [
     {
       name: 'title',

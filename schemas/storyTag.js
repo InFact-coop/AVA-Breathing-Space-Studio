@@ -1,10 +1,10 @@
-import { GrSupport } from 'react-icons/gr'
+import { RiQuillPenLine } from 'react-icons/ri'
 
 export default {
-  name: 'supportTag',
-  title: 'Support Tag',
+  name: 'storyTag',
+  title: 'Story Tag',
   type: 'document',
-  icon: GrSupport,
+  icon: RiQuillPenLine,
   fields: [
     {
       name: 'title',
