@@ -27,6 +27,11 @@ export default {
       },
     },
     {
+      name: 'preview',
+      title: 'Preview',
+      type: 'text',
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent',
