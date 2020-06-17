@@ -12,6 +12,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'email',
+      title: 'Email',
+      type: 'string',
+    },
+    {
       name: 'tags',
       title: 'Tags',
       type: 'array',
