@@ -16,6 +16,8 @@ import story from './story'
 import storyTag from './storyTag'
 import fileType from './file'
 import page from './page'
+import input from './input'
+import form from './form'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -35,5 +37,7 @@ export default createSchema({
     blockContent,
     fileType,
     page,
+    input,
+    form,
   ]),
 })
