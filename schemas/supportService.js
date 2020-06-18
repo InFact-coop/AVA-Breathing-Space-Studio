@@ -80,5 +80,11 @@ export default {
       type: 'number',
       readOnly: 'true',
     },
+    {
+      name: 'comments',
+      title: 'Comments',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'comment' } }],
+    },
   ],
 }
