@@ -18,6 +18,7 @@ import fileType from './file'
 import page from './page'
 import input from './input'
 import form from './form'
+import message from './message'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -39,5 +40,6 @@ export default createSchema({
     page,
     input,
     form,
+    message,
   ]),
 })
