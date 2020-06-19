@@ -6,6 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // We import object and document schemas
 import blockContent from './blockContent'
+import comment from './comment'
 import selfcareCategory from './selfcareCategory'
 import selfcareTechnique from './selfcareTechnique'
 import supportCategory from './supportCategory'
@@ -27,6 +28,7 @@ export default createSchema({
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
+    comment,
     selfcareCategory,
     selfcareTechnique,
     supportCategory,
