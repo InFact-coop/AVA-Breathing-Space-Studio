@@ -8,7 +8,7 @@ export default {
   fields: [
     {
       name: 'title',
-      title: 'Title',
+      title: 'Nav Title',
       type: 'string',
     },
     {
@@ -19,6 +19,16 @@ export default {
         source: 'title',
         maxLength: 96,
       },
+    },
+    {
+      name: 'pageTitle',
+      title: 'Page Title',
+      type: 'string',
+    },
+    {
+      name: 'subtitle',
+      title: 'Subtitle',
+      type: 'blockContent',
     },
     {
       name: 'body',
