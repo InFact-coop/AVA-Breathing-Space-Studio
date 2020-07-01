@@ -65,7 +65,7 @@ export default {
             return true // Allow undefined values
           }
           return (
-            url.startsWith('https://youtube.com/embed/') ||
+            url.startsWith('https://www.youtube.com/embed/') ||
             'Not a valid embed URL'
           )
         }),
