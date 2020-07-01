@@ -50,10 +50,19 @@ export default {
       type: 'blockContent',
     },
     {
-      name: 'video',
-      title: 'Video',
+      name: 'videoFile',
+      title: 'Upload Video',
       type: 'fileType',
       accept: '.mp4',
+    },
+    {
+      name: 'videoLink',
+      title: 'Link to Video',
+      type: 'url',
+      validation: Rule =>
+        Rule.uri({
+          scheme: ['https'],
+        }),
     },
     {
       name: 'audio',
