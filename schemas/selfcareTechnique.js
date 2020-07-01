@@ -70,7 +70,7 @@ export default {
           )
         }),
       description:
-        "To upload a YouTube video, go to the video on YouTube, click 'Share', then 'Embed' and copy the url from the codeblock. It should start with 'https://youtube.com/embed/'",
+        "To upload a YouTube video, go to the video on YouTube, click 'Share', then 'Embed' and copy the url from the codeblock. It should start with 'https://www.youtube.com/embed/'",
     },
     {
       name: 'audio',
