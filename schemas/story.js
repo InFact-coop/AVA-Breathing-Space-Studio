@@ -10,6 +10,7 @@ export default {
       name: 'author',
       title: 'Author',
       type: 'string',
+      validation: string => string.required(),
     },
     {
       name: 'email',
@@ -30,6 +31,7 @@ export default {
         source: 'author',
         maxLength: 96,
       },
+      validation: string => string.required(),
     },
     {
       name: 'preview',
