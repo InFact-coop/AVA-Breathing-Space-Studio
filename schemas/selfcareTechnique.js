@@ -50,10 +50,27 @@ export default {
       type: 'blockContent',
     },
     {
-      name: 'video',
-      title: 'Video',
+      name: 'videoFile',
+      title: 'Upload Video',
       type: 'fileType',
       accept: '.mp4',
+    },
+    {
+      name: 'videoLink',
+      title: 'Link to Video',
+      type: 'url',
+      validation: Rule =>
+        Rule.custom(url => {
+          if (typeof url === 'undefined') {
+            return true // Allow undefined values
+          }
+          return (
+            url.startsWith('https://www.youtube.com/embed/') ||
+            'Not a valid embed URL'
+          )
+        }),
+      description:
+        "To upload a YouTube video, go to the video on YouTube, click 'Share', then 'Embed' and copy the url from the codeblock. It should start with 'https://www.youtube.com/embed/'",
     },
     {
       name: 'audio',
