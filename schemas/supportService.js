@@ -49,6 +49,12 @@ export default {
       of: [{ type: 'reference', to: { type: 'supportTag' } }],
     },
     {
+      name: 'filterTypes',
+      title: 'Filter Types',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'supportFilterType' } }],
+    },
+    {
       name: 'phonelines',
       title: 'Phonelines',
       type: 'array',
