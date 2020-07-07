@@ -16,5 +16,14 @@ export default {
       title: 'Published at',
       type: 'datetime',
     },
+    {
+      name: 'publishInApp',
+      title: 'Publish in app',
+      type: 'boolean',
+    },
   ],
+  initialValue: {
+    publishedAt: new Date().toISOString(),
+    publishInApp: false,
+  },
 }
