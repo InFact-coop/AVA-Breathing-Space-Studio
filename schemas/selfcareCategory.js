@@ -16,5 +16,11 @@ export default {
       title: 'Description',
       type: 'text',
     },
+    {
+      name: 'illustration',
+      title: 'Illustration for cards',
+      type: 'reference',
+      to: [{ type: 'illustration' }],
+    },
   ],
 }
