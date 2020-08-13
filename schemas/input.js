@@ -30,7 +30,6 @@ export default {
         list: [
           { title: 'Single line text field', value: 'input' },
           { title: 'Multi line text field', value: 'textarea' },
-          { title: 'Button', value: 'button' },
         ],
       },
     },
