@@ -21,6 +21,8 @@ import page from './page'
 import input from './input'
 import form from './form'
 import message from './message'
+import feedback from './feedback'
+import illustration from './illustration'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -32,6 +34,7 @@ export default createSchema({
     comment,
     selfcareCategory,
     selfcareTechnique,
+    illustration,
     supportCategory,
     supportTag,
     supportService,
@@ -45,5 +48,6 @@ export default createSchema({
     input,
     form,
     message,
+    feedback,
   ]),
 })
