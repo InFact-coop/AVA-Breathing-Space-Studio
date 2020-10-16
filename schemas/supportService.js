@@ -87,6 +87,11 @@ export default {
       readOnly: 'true',
     },
     {
+      name: 'commentsToggle',
+      title: 'Comments enabled?',
+      type: 'boolean',
+    },
+    {
       name: 'comments',
       title: 'Comments',
       type: 'array',
