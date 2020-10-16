@@ -21,14 +21,6 @@ export default {
       },
     },
     {
-      name: 'mainImage',
-      title: 'Main image',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
-    },
-    {
       name: 'categories',
       title: 'Categories',
       type: 'array',
@@ -50,12 +42,6 @@ export default {
       type: 'blockContent',
     },
     {
-      name: 'videoFile',
-      title: 'Upload Video',
-      type: 'fileType',
-      accept: '.mp4',
-    },
-    {
       name: 'videoLink',
       title: 'Link to Video',
       type: 'url',
@@ -71,12 +57,6 @@ export default {
         }),
       description:
         "To upload a YouTube video, go to the video on YouTube, click 'Share', then 'Embed' and copy the url from the codeblock. It should start with 'https://www.youtube.com/embed/'",
-    },
-    {
-      name: 'audio',
-      title: 'Audio',
-      type: 'fileType',
-      accept: '.mp3, .ogg, .wav',
     },
     {
       name: 'link',
