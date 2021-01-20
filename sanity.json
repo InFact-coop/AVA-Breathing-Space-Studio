@@ -3,6 +3,25 @@
   "project": {
     "name": "AVA: Breathing Space"
   },
+  "__experimental_spaces": [
+    {
+      "name": "production",
+      "title": "Prod",
+      "default": true,
+      "api": {
+        "projectId": "is8j72h6",
+        "dataset": "production"
+      }
+    },
+    {
+      "name": "staging",
+      "title": "Staging",
+      "api": {
+        "projectId": "is8j72h6",
+        "dataset": "staging"
+      }
+    }
+  ],
   "api": {
     "projectId": "is8j72h6",
     "dataset": "production"
@@ -13,7 +32,8 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "@sanity/production-preview"
+    "@sanity/production-preview",
+    "@sanity/vision"
   ],
   "env": {
     "development": {
