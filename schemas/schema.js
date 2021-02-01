@@ -16,6 +16,7 @@ import supportTag from './supportTag'
 import supportFilterType from './supportFilterType'
 import supportFilterCategory from './supportFilterCategory'
 import story from './story'
+import region from './region'
 import storyTag from './storyTag'
 import fileType from './file'
 import page from './page'
@@ -42,6 +43,7 @@ export default createSchema({
     supportPhoneline,
     supportFilterType,
     supportFilterCategory,
+    region,
     story,
     storyTag,
     blockContent,
