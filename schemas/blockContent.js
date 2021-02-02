@@ -27,6 +27,7 @@ export default {
         { title: 'H3', value: 'h3' },
         { title: 'H4', value: 'h4' },
         { title: 'Quote', value: 'blockquote' },
+        { title: 'Line break', value: 'hr' },
       ],
       lists: [{ title: 'Bullet', value: 'bullet' }],
       // Marks let you mark up inline text in the block editor.
@@ -61,5 +62,6 @@ export default {
       type: 'image',
       options: { hotspot: true },
     },
+    { type: 'supportPhoneline' },
   ],
 }
