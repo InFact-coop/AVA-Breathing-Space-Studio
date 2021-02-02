@@ -12,6 +12,16 @@ export default {
       type: 'string',
     },
     {
+      name: 'pageTitle',
+      title: 'Page Title (if different from nav title above)',
+      type: 'string',
+    },
+    {
+      name: 'subtitle',
+      title: 'Subtitle',
+      type: 'string',
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
