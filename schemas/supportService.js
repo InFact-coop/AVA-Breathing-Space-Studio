@@ -98,4 +98,7 @@ export default {
       of: [{ type: 'reference', to: { type: 'comment' } }],
     },
   ],
+  initialValue: {
+    likes: 0,
+  },
 }

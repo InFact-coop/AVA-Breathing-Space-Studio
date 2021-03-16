@@ -50,4 +50,7 @@ export default {
       readOnly: 'true',
     },
   ],
+  initialValue: {
+    likes: 0,
+  },
 }
