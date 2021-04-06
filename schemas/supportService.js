@@ -20,6 +20,12 @@ export default {
       },
     },
     {
+      name: 'regions',
+      title: 'Regions',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'region' } }],
+    },
+    {
       name: 'categories',
       title: 'Categories',
       type: 'array',
