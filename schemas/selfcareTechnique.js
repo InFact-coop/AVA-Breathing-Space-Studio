@@ -66,6 +66,7 @@ export default {
       validation: Rule =>
         Rule.custom(
           file =>
+            file === undefined ||
             ['mp3', 'ogg', 'wav'].some(ext => file.asset._ref.endsWith(ext)) ||
             'Please choose an audio file with .mp3, .ogg, or .wav extension',
         ),
@@ -89,4 +90,7 @@ export default {
       of: [{ type: 'reference', to: { type: 'comment' } }],
     },
   ],
+  initialValue: {
+    likes: 0,
+  },
 }
