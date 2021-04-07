@@ -12,10 +12,10 @@ export default {
       type: 'string',
     },
     {
-      name: 'filterCategories',
-      title: 'Filter Categories',
-      type: 'array',
-      of: [{ type: 'reference', to: { type: 'supportFilterCategory' } }],
+      name: 'filterCategory',
+      title: 'Filter Category',
+      type: 'reference',
+      to: [{ type: 'supportFilterCategory' }],
     },
   ],
 }
