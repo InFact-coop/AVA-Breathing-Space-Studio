@@ -18,6 +18,7 @@ import supportFilterCategory from './supportFilterCategory'
 import story from './story'
 import region from './region'
 import storyTag from './storyTag'
+import transcript from './transcript'
 import fileType from './file'
 import page from './page'
 import input from './input'
@@ -46,6 +47,7 @@ export default createSchema({
     region,
     story,
     storyTag,
+    transcript,
     blockContent,
     fileType,
     page,
