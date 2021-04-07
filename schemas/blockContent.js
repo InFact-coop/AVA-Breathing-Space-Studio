@@ -63,5 +63,20 @@ export default {
       options: { hotspot: true },
     },
     { type: 'supportPhoneline' },
+    {
+      name: 'audio',
+      title: 'Audio file',
+      type: 'file',
+      accept: 'audio/mp3',
+      validation: Rule =>
+        Rule.custom(
+          file =>
+            file === undefined ||
+            ['mp3', 'ogg', 'wav'].some(ext => file.asset._ref.endsWith(ext)) ||
+            'Please choose an audio file with .mp3, .ogg, or .wav extension',
+        ),
+      description: 'You can choose MP3 files, WAV files, or OGG files',
+    },
+    { type: 'transcript' },
   ],
 }
