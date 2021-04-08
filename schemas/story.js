@@ -76,7 +76,7 @@ export default {
     {
       name: 'transcript',
       title: 'Transcript',
-      type: 'transcript',
+      type: 'toggle',
       description:
         'Only enter the transcript if you have also uploaded a video or audio file.',
     },
