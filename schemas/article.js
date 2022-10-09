@@ -1,10 +1,10 @@
-import { GrSupport } from 'react-icons/gr'
+import { MdOutlineArticle } from 'react-icons/md'
 
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
-  icon: GrSupport,
+  icon: MdOutlineArticle,
   fields: [
     {
       name: 'title',

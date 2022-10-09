@@ -1,10 +1,10 @@
-import { GrSupport } from 'react-icons/gr'
+import { BsPersonBadge } from 'react-icons/bs'
 
 export default {
   name: 'person',
   title: 'Person',
   type: 'document',
-  icon: GrSupport,
+  icon: BsPersonBadge,
   fields: [
     {
       name: 'title',

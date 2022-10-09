@@ -1,22 +1,23 @@
-import { RiUserHeartLine } from 'react-icons/ri'
+import { MdOutlineTopic } from 'react-icons/md'
 
 export default {
   name: 'topic',
   title: 'Topic',
   type: 'document',
-  icon: RiUserHeartLine,
+  icon: MdOutlineTopic,
   fields: [
     {
       name: 'summaryTitle',
       title: 'Summary Title',
       type: 'string',
-      description: 'A short title to be used as the page header'
+      description: 'A short title to be used as the page header',
     },
     {
       name: 'quoteTitle',
       title: 'Quote Title',
       type: 'string',
-      description: 'A title in the form of a quote to help the user understand what kind of content will be contained in this topic'
+      description:
+        'A title in the form of a quote to help the user understand what kind of content will be contained in this topic',
     },
     {
       name: 'slug',
