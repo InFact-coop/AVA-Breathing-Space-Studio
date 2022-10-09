@@ -24,6 +24,12 @@ export default {
       of: [{ type: 'reference', to: { type: 'storyTag' } }],
     },
     {
+      name: 'topics',
+      title: 'Topics',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'topic' } }],
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
