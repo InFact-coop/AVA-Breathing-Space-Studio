@@ -26,6 +26,9 @@ import form from './form'
 import message from './message'
 import feedback from './feedback'
 import illustration from './illustration'
+import topic from './topic'
+import person from './person'
+import article from './article'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -55,5 +58,8 @@ export default createSchema({
     form,
     message,
     feedback,
+    article,
+    person,
+    topic,
   ]),
 })
