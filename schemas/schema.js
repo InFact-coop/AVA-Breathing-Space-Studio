@@ -19,6 +19,7 @@ import story from './story'
 import region from './region'
 import storyTag from './storyTag'
 import toggle from './toggle'
+import needHelpButton from './needHelpButton'
 import accordion from './accordion'
 import fileType from './file'
 import page from './page'
@@ -30,7 +31,6 @@ import illustration from './illustration'
 import topic from './topic'
 import person from './person'
 import article from './article'
-import needHelpButton from './needHelpButton'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
