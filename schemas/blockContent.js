@@ -79,5 +79,6 @@ export default {
     },
     { type: 'toggle' },
     { type: 'accordion' },
+    { type: 'needHelpButton' },
   ],
 }

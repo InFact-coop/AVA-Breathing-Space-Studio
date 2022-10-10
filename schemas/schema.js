@@ -20,6 +20,7 @@ import region from './region'
 import storyTag from './storyTag'
 import toggle from './toggle'
 import accordion from './accordion'
+import needHelpButton from './needHelpButton'
 import fileType from './file'
 import page from './page'
 import input from './input'
@@ -53,6 +54,7 @@ export default createSchema({
     storyTag,
     toggle,
     accordion,
+    needHelpButton,
     blockContent,
     fileType,
     page,
