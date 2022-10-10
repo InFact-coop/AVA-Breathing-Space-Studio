@@ -8,8 +8,14 @@ export default {
   fields: [
     {
       name: 'title',
-      title: 'Title',
+      title: 'title',
       type: 'string',
+    },
+    {
+      name: 'filterCategory',
+      title: 'Filter Category',
+      type: 'reference',
+      to: [{ type: 'supportFilterCategory' }],
     },
   ],
 }

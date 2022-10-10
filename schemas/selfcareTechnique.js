@@ -59,6 +59,20 @@ export default {
         "To upload a YouTube video, go to the video on YouTube, click 'Share', then 'Embed' and copy the url from the codeblock. It should start with 'https://www.youtube.com/embed/'",
     },
     {
+      name: 'audio',
+      title: 'Audio file',
+      type: 'file',
+      accept: 'audio/mp3',
+      validation: Rule =>
+        Rule.custom(
+          file =>
+            file === undefined ||
+            ['mp3', 'ogg', 'wav'].some(ext => file.asset._ref.endsWith(ext)) ||
+            'Please choose an audio file with .mp3, .ogg, or .wav extension',
+        ),
+      description: 'You can choose MP3 files, WAV files, or OGG files',
+    },
+    {
       name: 'link',
       title: 'Link',
       type: 'url',
@@ -76,4 +90,7 @@ export default {
       of: [{ type: 'reference', to: { type: 'comment' } }],
     },
   ],
+  initialValue: {
+    likes: 0,
+  },
 }

@@ -61,7 +61,8 @@
     "jest": "^24.9.0",
     "jest-runner-eslint": "^0.7.5",
     "lint-staged": "^10.2.4",
-    "shell-quote": "^1.7.2",
+    "prettier": "^2.2.1",
+    "shell-quote": "^1.7.3",
     "typescript": "^3.9.3"
   },
   "repository": {

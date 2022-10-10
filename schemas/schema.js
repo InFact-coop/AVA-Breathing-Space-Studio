@@ -14,8 +14,11 @@ import supportService from './supportService'
 import supportPhoneline from './supportPhoneline'
 import supportTag from './supportTag'
 import supportFilterType from './supportFilterType'
+import supportFilterCategory from './supportFilterCategory'
 import story from './story'
+import region from './region'
 import storyTag from './storyTag'
+import toggle from './toggle'
 import fileType from './file'
 import page from './page'
 import input from './input'
@@ -23,6 +26,9 @@ import form from './form'
 import message from './message'
 import feedback from './feedback'
 import illustration from './illustration'
+import topic from './topic'
+import person from './person'
+import article from './article'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -40,8 +46,11 @@ export default createSchema({
     supportService,
     supportPhoneline,
     supportFilterType,
+    supportFilterCategory,
+    region,
     story,
     storyTag,
+    toggle,
     blockContent,
     fileType,
     page,
@@ -49,5 +58,8 @@ export default createSchema({
     form,
     message,
     feedback,
+    article,
+    person,
+    topic,
   ]),
 })
