@@ -31,7 +31,6 @@ export default {
           { title: 'Single line text field', value: 'input' },
           { title: 'Multi line text field', value: 'textarea' },
           { title: 'Radio button', value: 'radio' },
-          { title: 'Need immediate help button', value: 'button' },
         ],
       },
       validation: Rule => Rule.length(1),
