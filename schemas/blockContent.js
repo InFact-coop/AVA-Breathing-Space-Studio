@@ -77,7 +77,6 @@ export default {
         ),
       description: 'You can choose MP3 files, WAV files, or OGG files',
     },
-    { type: 'needHelpButton' },
     { type: 'toggle' },
     { type: 'accordion' },
   ],
