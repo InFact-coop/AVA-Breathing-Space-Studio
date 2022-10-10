@@ -78,11 +78,6 @@ export default {
       description: 'You can choose MP3 files, WAV files, or OGG files',
     },
     { type: 'needHelpButton' },
-    {
-      name: 'needHelpButton',
-      title: 'Need immediate help button',
-      type: 'button',
-    },
     { type: 'toggle' },
     { type: 'accordion' },
   ],
