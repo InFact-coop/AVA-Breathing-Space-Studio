@@ -28,7 +28,6 @@ export default {
         { title: 'H4', value: 'h4' },
         { title: 'Quote', value: 'blockquote' },
         { title: 'Line break', value: 'hr' },
-        { title: 'Need immediate help button', value: 'button' },
       ],
       lists: [{ title: 'Bullet', value: 'bullet' }],
       // Marks let you mark up inline text in the block editor.
@@ -77,6 +76,12 @@ export default {
             'Please choose an audio file with .mp3, .ogg, or .wav extension',
         ),
       description: 'You can choose MP3 files, WAV files, or OGG files',
+    },
+    { type: 'needHelpButton' },
+    {
+      name: 'needHelpButton',
+      title: 'Need immediate help button',
+      type: 'button',
     },
     { type: 'toggle' },
     { type: 'accordion' },
