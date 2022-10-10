@@ -2,5 +2,11 @@ export default {
   name: 'needHelpButton',
   title: 'Need immediate help button',
   type: 'object',
-  fields: [{}],
+  fields: [
+    {
+      name: 'title',
+      title: 'Button call to action',
+      type: 'string',
+    },
+  ],
 }
