@@ -1,8 +1,8 @@
 import { RiUserHeartLine } from 'react-icons/ri'
 
 export default {
-  name: 'illustration',
-  title: 'Illustration',
+  name: 'colourAndIllustration',
+  title: 'Colour And illustration',
   icon: RiUserHeartLine,
   type: 'document',
   fields: [
@@ -11,7 +11,15 @@ export default {
       name: 'color',
       type: 'string',
       options: {
-        list: ['Coral', 'Light violet', 'Light teal'],
+        list: [
+          'Coral',
+          'Light violet',
+          'Light teal',
+          'Teal coral',
+          'Gray lilac',
+          'Pale blue cornflower',
+          'Gray teal',
+        ],
         layout: 'radio',
       },
     },

@@ -37,15 +37,20 @@ export default {
       },
     },
     {
-      name: 'backgroundIllustration',
-      title: 'Illustration for cards',
+      name: 'colourAndBackgroundIllustration',
+      title: 'Colour and illustration for cards',
       type: 'reference',
-      to: [{ type: 'illustration' }],
+      to: [{ type: 'colourAndIllustration' }],
     },
     {
       name: 'overview',
       title: 'Overview',
       type: 'text',
+    },
+    {
+      name: 'homepage?',
+      title: 'Featured on homepage?',
+      type: 'boolean',
     },
     {
       name: 'articles',

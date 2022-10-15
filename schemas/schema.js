@@ -27,7 +27,7 @@ import input from './input'
 import form from './form'
 import message from './message'
 import feedback from './feedback'
-import illustration from './illustration'
+import colourAndIllustration from './colourAndIllustration'
 import topic from './topic'
 import person from './person'
 import article from './article'
@@ -42,7 +42,7 @@ export default createSchema({
     comment,
     selfcareCategory,
     selfcareTechnique,
-    illustration,
+    colourAndIllustration,
     supportCategory,
     supportTag,
     supportService,
