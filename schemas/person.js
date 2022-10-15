@@ -1,10 +1,10 @@
-import { BsPersonBadge } from 'react-icons/bs'
+import { ImProfile } from 'react-icons/im'
 
 export default {
   name: 'person',
   title: 'Person',
   type: 'document',
-  icon: BsPersonBadge,
+  icon: ImProfile,
   fields: [
     {
       name: 'title',

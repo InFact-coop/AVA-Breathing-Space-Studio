@@ -1,9 +1,9 @@
-import { RiUserHeartLine } from 'react-icons/ri'
+import { IoColorPaletteOutline } from 'react-icons/io'
 
 export default {
   name: 'colourAndIllustration',
-  title: 'Colour And illustration',
-  icon: RiUserHeartLine,
+  title: 'Colour And Illustration',
+  icon: IoColorPaletteOutline,
   type: 'document',
   fields: [
     { name: 'description', type: 'string', title: 'Description' },

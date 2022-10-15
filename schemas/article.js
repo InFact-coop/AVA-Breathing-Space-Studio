@@ -1,10 +1,10 @@
-import { MdOutlineArticle } from 'react-icons/md'
+import { RiArticleLine } from 'react-icons/ri'
 
 export default {
   name: 'article',
   title: 'Article',
   type: 'document',
-  icon: MdOutlineArticle,
+  icon: RiArticleLine,
   fields: [
     {
       name: 'title',
