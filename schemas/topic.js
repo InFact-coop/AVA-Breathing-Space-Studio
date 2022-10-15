@@ -55,24 +55,6 @@ export default {
       type: 'boolean',
     },
     {
-      name: 'articles',
-      title: 'Articles',
-      type: 'array',
-      of: [{ type: 'reference', to: { type: 'article' } }],
-    },
-    {
-      name: 'people',
-      title: 'People',
-      type: 'array',
-      of: [{ type: 'reference', to: { type: 'person' } }],
-    },
-    {
-      name: 'stories',
-      title: 'Stories',
-      type: 'array',
-      of: [{ type: 'reference', to: { type: 'story' } }],
-    },
-    {
       name: 'services',
       title: 'Support services',
       type: 'array',
