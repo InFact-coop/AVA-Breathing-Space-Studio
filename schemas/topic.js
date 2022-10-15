@@ -48,7 +48,7 @@ export default {
       type: 'text',
     },
     {
-      name: 'homepage?',
+      name: 'onHomepage',
       title: 'Featured on homepage?',
       type: 'boolean',
     },

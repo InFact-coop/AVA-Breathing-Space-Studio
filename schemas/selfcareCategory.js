@@ -17,10 +17,10 @@ export default {
       type: 'text',
     },
     {
-      name: 'illustration',
-      title: 'Illustration for cards',
+      name: 'colourAndIllustration',
+      title: 'Colour and illustration for cards',
       type: 'reference',
-      to: [{ type: 'illustration' }],
+      to: [{ type: 'colourAndIllustration' }],
     },
   ],
 }
