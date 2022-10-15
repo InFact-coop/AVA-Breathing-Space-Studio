@@ -11,6 +11,7 @@ export default {
       title: 'Summary Title',
       type: 'string',
       description: 'A short title to be used as the page header',
+      validation: string => string.required(),
     },
     {
       name: 'quoteTitle',
@@ -24,9 +25,10 @@ export default {
       title: 'Slug',
       type: 'slug',
       options: {
-        source: 'title',
+        source: 'summaryTitle',
         maxLength: 96,
       },
+      validation: string => string.required(),
     },
     {
       name: 'illustration',
