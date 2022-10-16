@@ -47,7 +47,7 @@ export default {
     {
       name: 'overview',
       title: 'Overview',
-      type: 'text',
+      type: 'blockContent',
     },
     {
       name: 'onHomepage',
